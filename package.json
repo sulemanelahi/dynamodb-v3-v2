@@ -1,8 +1,13 @@
 {
-  "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.338.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.2.4"
-  }
+    "scripts": {
+        "format": "prettier --write ./src/**/*.ts",
+        "format:check": "prettier --check ./src/**/*.ts"
+    },
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.338.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.4",
+        "prettier": "^2.8.8"
+    }
 }
